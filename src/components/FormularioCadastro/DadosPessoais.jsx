@@ -25,6 +25,7 @@ function DadosPessoais({ aoEnviar, validarCPF }) {
         }}
         id="nome"
         label="Nome"
+        required
         margin="normal"
         fullWidth
       />
@@ -35,6 +36,7 @@ function DadosPessoais({ aoEnviar, validarCPF }) {
         }}
         id="sobrenome"
         label="Sobrenome"
+        required
         margin="normal"
         fullWidth
       />
