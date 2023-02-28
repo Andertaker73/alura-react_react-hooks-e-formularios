@@ -55,6 +55,7 @@ function DadosPessoais({ aoEnviar, validarCPF }) {
         helperText={erros.cpf.texto}
         id="cpf"
         label="CPF"
+        required
         margin="normal"
         fullWidth
       />
@@ -85,7 +86,7 @@ function DadosPessoais({ aoEnviar, validarCPF }) {
       />
 
       <Button type="submit" variant="contained">
-        Cadastrar
+        Próximo
       </Button>
     </form>
   )

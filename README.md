@@ -6,7 +6,7 @@
 
 - Por que separar um formulário em muitas partes
 
-# Aula 2
+# Aula 02
 
 - O que aprendemos nessa aula:
 
@@ -21,3 +21,13 @@
 - Reutilização de componentes
 
 - Refatoração do Switch case e melhores estruturas de código
+
+# Aula 03
+
+- Como lidar com problemas de assincronicidade
+
+- Quando usar o Hook de UseEffect
+
+- Ciclo de vida dos componentes funcionais
+
+- Como utilizar o componente Stepper do MaterialUI
