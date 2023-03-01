@@ -1,7 +1,8 @@
 import { Button, TextField } from "@mui/material"
-import React, { useState } from "react"
+import React, { useContext, useState } from "react"
+import ValidacoesCadastro from "../../contexts/ValidacoesCadastro"
 
-function DadosUsuario({ aoEnviar, validacoes }) {
+function DadosUsuario({ aoEnviar }) {
   const [email, setEmail] = useState("")
   const [senha, setSenha] = useState("")
 
@@ -15,6 +16,8 @@ function DadosUsuario({ aoEnviar, validacoes }) {
     novoEstado[name] = validacoes[name](value)
     setErros(novoEstado)
   }
+
+  const validacoes = useContext(ValidacoesCadastro)
 
   function possoEnviar() {
     for (const campo in erros) {
